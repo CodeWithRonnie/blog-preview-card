@@ -20,6 +20,12 @@ body{
     box-shadow: 8px 8px 15px black;
 }
 
+.illustration{
+    margin-top: 20px;
+    border-radius: 15px;
+    width: 370px;
+}
+
 button{
     background-color:  hsl(47, 88%, 63%);
     font-weight: bold;
@@ -28,6 +34,22 @@ button{
     border: none;
     border-radius: 4px;
 }
+
+h3{
+    font-weight: 400;
+}
  p{
     color: hsl(0, 0%, 42%);
+    font-size: 16px;
+    width: 1;
+ }
+
+.avatar{
+    display: flex;
+    margin-bottom: 12px;
+}
+ .avatar p{
+    margin-left: 20px;
+    color: hsl(0, 0%, 7%) ;
+    font-weight: bold;
  }
